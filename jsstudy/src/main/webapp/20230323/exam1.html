@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- webapp/20230323/exam1.html 
+      저축할 금액을 1~10만원까지 하려고 함
+      6만원 이상이면 메세지창에 저축을 많이 하셨습니다. alert 창으로 출력
+      6만원 미만이면 메세지창에 좀 더 많이 하세요. alert 창으로 출력
+      
+      //1~10사이의 임의의 값을 저장하고, 6이상이면 저축을 많이, 6미만이면 좀 더 많이 내용을 출력
+       
+      -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+    let mo = Math.ceil(Math.random() *10 );
+ if(mo >= 6) {
+	  msg = "저축을 많이 하셨습니다."
+	 alert(msg + mo+ "만원:")
+ } else {
+	  msg = "조금 더 하세요."
+			 alert(msg + mo+ "만원:")
+ }
+
+
+</script>
+
+</body>
+</html>

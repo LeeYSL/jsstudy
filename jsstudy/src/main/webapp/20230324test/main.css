@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*webapp/20230324/csstest.css*/
+h2 {
+	font-size: 25px
+}
+
+span {
+	text-decoration: underline;
+	font-size: 15px
+}
+
+li {
+	list-style-type: decimal;
+}
+table, tr, td, th {
+	border: solid 2px gray;
+	border-collapse: collapse;
+	padding: 8px;
+}
+th{ 
+	background: #BDC3C7;
+
+}
+
+select {
+	padding: 2px 130px;
+}
+td{
+	background: #E5E7E9	
+	
+}
+table{
+	width:500px;
+	height: 100px;
+	text-align: center;
+}
+
+input[type=text]{
+	padding: 2px 90px;
+}
+
+div {border-style:none;
+     text-align: center;
+     width:130px; 
+     height:40px; 
+     float : left;
+     }
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet"href="main.css">
+</head>
+<body>
+<div class="m1"><a href="index.html">홈으로</a></div>
+<div class="m2"><a href="dept.html">부서관리</a></div>
+<div class="m3"><a href="employee.html">사원관리</a></div>
+<br>
+<h3>사원 추가</h3>
+<table>
+ <tr>
+  <th>사원번호</th>
+   <td><input type="text"></td></tr>
+   <tr>
+   <th>사원이름</th>
+   <td><input type="text"></td></tr>
+   <tr>
+   <th>부서코드</th><td>
+    <select>
+   <option>기획부</option>
+   <option>영업부</option>
+   <option>인사부</option>
+   <option>연구개발부</option>
+   <option>총무부</option>
+    </select>
+ </td>
+   <tr>
+   <th>직급</th><td>
+       <input type="radio" name="position">부장
+       <input type="radio" name="position">차장
+       <input type="radio" name="position">과장
+       <input type="radio" name="position">대리
+       <input type="radio" name="position">사원
+       </td></tr>
+       <tr>
+       <th></th>
+       <td><input type="submit"value="사원등록">
+       </td></tr>
+   
+</table>
+   
+</body>
+</html>
